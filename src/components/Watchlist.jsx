@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux';
 import Moviecard from '../Moviecard';
-import { useState, useEffect } from 'react';
 const Watchlist = () => {
     const [inWatchlist, setInWatchlist] = useState(true);
     const options = {
@@ -34,7 +33,7 @@ const Watchlist = () => {
         }, [lists]);
     
 return (
-    <div style={{height: '100vh', width: '100vw', backgroundColor: '#111', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+    <>
     <h2 style={{marginTop: '10vh'}}>WATCHLATER</h2>
     <div className='movie-section'>
       
@@ -46,7 +45,7 @@ return (
         <h3>No movies to watch later</h3>
     )}
     </div>
-    </div>
+    </>
   )
 }
 

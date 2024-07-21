@@ -1,0 +1,38 @@
+.originaltrailer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 5;
+    height: 100vw;
+    width: 100vw;
+}
+.container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 0px;
+}
+.backTrailer {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 10px 5px 10px 5px;
+    top: 10%;
+    left: 4%;
+    font-size: 60px;
+    background-color: transparent;
+    
+}
+.backTrailer:hover {
+   background-color: #111;
+    
+}

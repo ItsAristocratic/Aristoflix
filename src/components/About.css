@@ -1,0 +1,16 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    gap: 0px;
+    width: 100vw;
+    background-color: #111;
+}
+.about-section h1, h3, h4{
+    margin: 10px;
+
+}
+.about-section button {
+    background-color: #2563eb; 
+    color: #2563eb;
+}

@@ -54,7 +54,7 @@ const buttonChange = () => {
 
   return (
     <div>
-    <div className={menuOpen ? 'smallContent' : 'contentbox'}>
+    <div className='contentbox'>
   
     <div className='search-box'>
       <form onSubmit={handleSubmit}>

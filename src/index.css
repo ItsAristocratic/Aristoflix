@@ -28,6 +28,7 @@ body {
   margin-right: 100px;
   overflow-x: hidden;
   overflow-y: scroll;
+  padding-bottom: 50vh;
 }
 
 h1 {

@@ -34,7 +34,7 @@ const Watchlist = () => {
         }, [lists]);
     
 return (
-    <div style={{backgroundColor: '#111', display: 'flex', flexDirection: 'column'}}>
+    <div style={{backgroundColor: '#111', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
     <h2 style={{marginTop: '10vh'}}>WATCHLATER</h2>
     <div className='movie-section'>
       

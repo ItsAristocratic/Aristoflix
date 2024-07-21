@@ -1,36 +1,8 @@
 #root {
-  max-width: 1280px;
   margin: 0;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .card {
   padding: 2em;
@@ -129,9 +101,11 @@
   align-items: center;
   justify-content: center;
   gap: 1vw;
+  height: 7vh;
 
 }
 .search-box form button {
+  height: auto;
   border-radius: 40px;
   border: solid;
   border-width: 2px;
@@ -139,12 +113,13 @@
   background-color: #111;
 }
 .search-box form input {
-  height: 4vh;
+  height: 100%;
   padding: 5px;
   padding-left: 10px;
-  border-radius: 20px;
+  border-radius: 40px;
   border-width: 2px;
   width: 60vw;
+  border: solid;
   border-color: #2563eb;
   background-color: #111;
 }
